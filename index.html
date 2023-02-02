@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230109231142">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-goto=".main" class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li data-goto=".about" class="menu__item"><a href="" class="menu__link">About Me</a></li>
+							<li data-goto=".contact" class="menu__item"><a href="" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<h1 class="main__title">CREATIVE UI <span>DESIGNER</span></h1>
+						<div class="main__actions">
+							<a href="" class="main__button button">Hire me</a>
+							<a href="" class="main__button button button_dark"><span>Download CV</span></a>
+						</div>
+					</div>
+					<div class="main__image">
+						<img src="img/main/main-image.svg" alt="main-image">
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__content">
+						<h2 class="about__title title">About <span>me</span></h2>
+						<div class="about__text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
+								mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus
+								urna at turpis condimentum lobortis
+							</p>
+						</div>
+					</div>
+					<div class="about__image">
+						<img src="img/about/image.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="page__projects projects">
+				<div class="projects__container">
+					<h2 class="projects__title title">My recent <span>works</span></h2>
+					<div class="projects__items items-projects">
+						<nav data-tabs-titles class="items-projects__navigation">
+							<button data-work-type="" type="button" class="items-projects__type button button_dark active">All</button>
+							<button data-work-type="ui" type="button" class="items-projects__type button button_dark">UI</button>
+							<button data-work-type="ux" type="button" class="items-projects__type button button_dark">UX</button>
+							<button data-work-type="wd" type="button" class="items-projects__type button button_dark">Web Design</button>
+						</nav>
+						<div data-tabs-body class="items-projects__body">
+							<a data-work-type="ui" href="#" class="items-projects__item">
+								<div class="items-projects__image">
+									<img src="img/projects/tabs/01.svg" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="ux" href="#" class="items-projects__item">
+								<div class="items-projects__image">
+									<img src="img/projects/tabs/02.svg" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="wd" href="#" class="items-projects__item">
+								<div class="items-projects__image">
+									<img src="img/projects/tabs/03.svg" alt="Image">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact contact">
+				<div class="contact__container">
+					<div class="contact__body">
+						<h2 class="contact__title title">Got a project in <span>mind?</span></h2>
+						<div class="contact__image">
+							<img src="img/contact/Image01.svg" alt="Image">
+						</div>
+					</div>
+					<form action="" class="contact__form form-contact">
+						<div class="form-contact__body">
+							<div class="form-contact__item">
+								<label for="inp1" class="form-contact__label">Your name</label>
+								<input id="inp1" required autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Name" class="form-contact__input form-contact__input_01">
+							</div>
+							<div class="form-contact__item">
+								<label for="inp2" class="form-contact__label">Your email</label>
+								<input id="inp2" autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="form-contact__input form-contact__input_02">
+							</div>
+						</div>
+						<div class="form-contact__item">
+							<label for="inp3" class="form-contact__label">Your Message</label>
+							<textarea id="inp3" placeholder="Message" class="form-contact__input form-contact__input_03"></textarea>
+						</div>
+						<button type="submit" class="form-contact__button button"><span>Send Message</span></button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li data-goto=".main" class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_01"><span>Home</span></a></li>
+							<li data-goto=".about" class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_02"><span>About me</span></a></li>
+							<li data-goto=".contact" class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_03"><span>Contact</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__social social-footer">
+					<a href="http://facebook.com" target="_blank" class="social-footer__link">
+						<img src="img/footer/facebook.svg" alt="facebook">
+					</a>
+					<a href="http://instagram.com" target="_blank" class="social-footer__link">
+						<img src="img/footer/instagram.svg" alt="instagram">
+					</a>
+					<a href="http://twitter.com" target="_blank" class="social-footer__link">
+						<img src="img/footer/twitter.svg" alt="twitter">
+					</a>
+					<a href="http://youtube.com" target="_blank" class="social-footer__link">
+						<img src="img/footer/youtube.svg" alt="youtube">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230109231142"></script>
+</body>
+
+</html>
